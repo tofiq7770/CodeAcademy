@@ -7,6 +7,10 @@
   src: url(../fonts/Demo_Fonts/WorkSans-Bold.ttf);
 }
 @font-face {
+  font-family: workSansbolder;
+  src: url(../fonts/Demo_Fonts/WorkSans-ExtraBold.ttf);
+}
+@font-face {
   font-family: workSansthin;
   src: url(../fonts/Demo_Fonts/WorkSans-Thin.ttf);
 }
@@ -196,6 +200,17 @@
   text-align: left;
   word-spacing: 0px;
 }
+.minif {
+  font-family: workSans !important;
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 24px;
+  width: 585px;
+  color: #4a4a4a;
+  text-decoration: none solid #4a4a4a;
+  text-align: left;
+  word-spacing: 0px;
+}
 .text {
   height: 400px;
   width: 640px;
@@ -250,7 +265,7 @@
   width: 50%;
   height: 50%;
   border: 0.7px solid #d3d3d5;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 .box p {
   font-family: workSansbold;
@@ -291,57 +306,53 @@
   left: -3%;
   background-color: #872891;
 }
-.box:nth-child(1):hover p{
+.box:nth-child(1):hover p {
   font-size: 21px;
   color: #ffffff;
 }
-.box:nth-child(2):hover p{
+.box:nth-child(2):hover p {
   font-size: 21px;
   color: #ffffff;
 }
-.box:nth-child(3):hover p{
+.box:nth-child(3):hover p {
   font-size: 21px;
   color: #ffffff;
 }
-.box:nth-child(4):hover p{
+.box:nth-child(4):hover p {
   font-size: 21px;
   color: #ffffff;
 }
 .box:nth-child(2):hover {
   top: -4%;
   right: -3%;
-  background-color: #FFCD06;
+  background-color: #ffcd06;
 }
 .box:nth-child(3):hover {
   bottom: -4%;
   left: -3%;
-  background-color: #00B45B;
+  background-color: #00b45b;
 }
 .box:nth-child(4):hover {
   bottom: -4%;
   right: -3%;
-  background-color: #2282C8;
+  background-color: #2282c8;
 }
 
-
-
-.box:nth-child(1):hover svg g path{
+.box:nth-child(1):hover svg g path {
   stroke: #ffffff;
 }
-.box:nth-child(2):hover svg g path{
+.box:nth-child(2):hover svg g path {
   stroke: #ffffff;
 }
-.box:nth-child(2):hover svg g circle{
+.box:nth-child(2):hover svg g circle {
   stroke: #ffffff;
 }
-.box:nth-child(3):hover svg g path{
+.box:nth-child(3):hover svg g path {
   stroke: #ffffff;
 }
-.box:nth-child(4):hover svg g path{
+.box:nth-child(4):hover svg g path {
   stroke: #ffffff;
 }
-
-
 
 .textt {
   height: 400px;
@@ -374,4 +385,81 @@
   text-align: left;
   margin-bottom: 40px;
   word-spacing: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+.boxx {
+  width: 550px;
+  display: flex;
+  margin-left: 75px;
+}
+.boxx p {
+  font-family: workSans;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none solid rgb(50, 50, 50);
+}
+
+.boxx h3 {
+  font-family: workSansbold;
+  font-size: 21px;
+  line-height: 27.93px;
+  color: #323232;
+  text-decoration: none solid rgb(50, 50, 50);
+  word-spacing: 0px;
+  cursor: pointer;
+}
+.boxx a {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 18.62px;
+  text-decoration: none solid rgb(74, 74, 74);
+  color: #4a4a4a;
+  word-spacing: 0px;
+}
+
+.boxx img {
+  width: 200px;
+  height: 200px;
+}
+.txt {
+  margin-left: 50px;
+}
+
+.boxx-2 {
+  width: 550px;
+  display: flex;
+  margin-left: 15px;
+}
+.boxx-2 p {
+  font-family: workSans;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none solid rgb(50, 50, 50);
+  word-spacing: 0px;
+}
+
+.boxx-2 h3 {
+  font-family: workSansbold;
+  font-size: 21px;
+  line-height: 27.93px;
+  color: #323232;
+  text-decoration: none solid rgb(50, 50, 50);
+  word-spacing: 0px;
+  cursor: pointer;
+}
+.boxx-2 a {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 18.62px;
+  text-decoration: none solid rgb(74, 74, 74);
+  color: #4a4a4a;
+  word-spacing: 0px;
+}
+
+.boxx-2 img {
+  width: 200px;
+  height: 200px;
 }
