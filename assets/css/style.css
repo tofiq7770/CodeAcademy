@@ -1,0 +1,377 @@
+@font-face {
+  font-family: workSans;
+  src: url(../fonts/Demo_Fonts/WorkSans-Light.ttf);
+}
+@font-face {
+  font-family: workSansbold;
+  src: url(../fonts/Demo_Fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: workSansthin;
+  src: url(../fonts/Demo_Fonts/WorkSans-Thin.ttf);
+}
+@font-face {
+  font-family: workSansreg;
+  src: url(../fonts/Demo_Fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: workSansli;
+  src: url(../fonts/Demo_Fonts/WorkSans-ExtraLight.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.minis {
+  font-family: workSans !important;
+  color: #323232;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-decoration: none solid rgb(50, 50, 50);
+  text-align: left;
+  word-spacing: 0px;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.list li {
+  display: flex;
+  list-style: none;
+}
+.boxx {
+  width: 200px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bgbx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list li a:link {
+  color: #323232;
+}
+.list li a:hover {
+  color: #323232;
+}
+.list li a:visited {
+  color: #323232;
+}
+.list li a:active {
+  color: #323232;
+}
+.search {
+  margin-left: 30px;
+  font-size: large;
+  color: #494b4d;
+}
+.contact {
+  background-color: #f9dd00;
+  background-position: 0% 0%;
+  color: #323232;
+  margin-left: 200px;
+  height: 58px;
+  width: 178px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact a {
+  color: #323232;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  text-decoration: none solid rgb(50, 50, 50);
+  text-align: center;
+  word-spacing: 0px;
+}
+.contact a span {
+  color: #323232;
+  line-height: 18px;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-color: #494b4d;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 25%;
+}
+
+.slide img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+}
+.logo img {
+  height: 46.2891px;
+}
+.contentca {
+  position: absolute;
+  z-index: 10;
+}
+
+.list-2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-left: 220px;
+}
+.list-2 li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.list-2 li a {
+  font-family: workSansbold;
+  font-size: 14px;
+  line-height: 22.5px;
+  text-decoration: none solid rgb(74, 74, 74);
+  word-spacing: 0px;
+  color: #ffffff;
+  list-style: none;
+  padding: 12px;
+}
+
+.list-2 li a:hover {
+  border-bottom: solid 3px #f9dd00;
+  transition: 0.25s;
+  transition-delay: 0.2s;
+}
+.mini {
+  font-family: workSans !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a4a4a;
+  text-decoration: none solid rgb(74, 74, 74);
+  text-align: left;
+  word-spacing: 0px;
+}
+.text {
+  height: 400px;
+  width: 640px;
+  min-height: auto;
+  min-width: auto;
+  padding: 90px;
+}
+.text h1 {
+  font-family: workSansbold !important;
+  color: #4a4a4a;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -1.2px;
+  line-height: 1px;
+  text-decoration: none solid rgb(74, 74, 74);
+  text-align: left;
+  word-spacing: 0px;
+}
+
+.text h2 {
+  font-family: workSansli !important;
+  font-size: 38px;
+  color: #4a4a4a;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  line-height: 3.8px;
+  text-decoration: none solid rgb(119, 119, 119);
+  text-align: left;
+  margin-top: 40px;
+  word-spacing: 0px;
+}
+.text img {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.boxes {
+  padding-top: 70px;
+}
+.containerrr {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  position: relative;
+  height: 380px;
+  border: 0.7px solid #d3d3d5;
+}
+.svg {
+  padding: 20px;
+}
+.box {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border: 0.7px solid #d3d3d5;
+  transition: all 0.3s ease;
+}
+.box p {
+  font-family: workSansbold;
+  margin-top: 55px;
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 0px;
+  color: #5a5959;
+  text-decoration: none solid rgb(77, 77, 77);
+  text-align: left;
+}
+
+.box:hover {
+  z-index: 100;
+  width: 57%;
+  height: 57%;
+}
+.box:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.box:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.box:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.box:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+
+.box:nth-child(1):hover {
+  top: -4%;
+  left: -3%;
+  background-color: #872891;
+}
+.box:nth-child(1):hover p{
+  font-size: 21px;
+  color: #ffffff;
+}
+.box:nth-child(2):hover p{
+  font-size: 21px;
+  color: #ffffff;
+}
+.box:nth-child(3):hover p{
+  font-size: 21px;
+  color: #ffffff;
+}
+.box:nth-child(4):hover p{
+  font-size: 21px;
+  color: #ffffff;
+}
+.box:nth-child(2):hover {
+  top: -4%;
+  right: -3%;
+  background-color: #FFCD06;
+}
+.box:nth-child(3):hover {
+  bottom: -4%;
+  left: -3%;
+  background-color: #00B45B;
+}
+.box:nth-child(4):hover {
+  bottom: -4%;
+  right: -3%;
+  background-color: #2282C8;
+}
+
+
+
+.box:nth-child(1):hover svg g path{
+  stroke: #ffffff;
+}
+.box:nth-child(2):hover svg g path{
+  stroke: #ffffff;
+}
+.box:nth-child(2):hover svg g circle{
+  stroke: #ffffff;
+}
+.box:nth-child(3):hover svg g path{
+  stroke: #ffffff;
+}
+.box:nth-child(4):hover svg g path{
+  stroke: #ffffff;
+}
+
+
+
+.textt {
+  height: 400px;
+  width: 640px;
+  min-height: auto;
+  min-width: auto;
+  padding: 90px;
+}
+.textt h1 {
+  font-family: workSansbold !important;
+  color: #4a4a4a;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  letter-spacing: -1.2px;
+  line-height: 1px;
+  text-decoration: none solid rgb(74, 74, 74);
+  text-align: left;
+  word-spacing: 0px;
+}
+
+.textt h2 {
+  font-family: workSansli !important;
+  font-size: 50px;
+  color: #4a4a4a;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  line-height: 3.8px;
+  text-decoration: none solid rgb(119, 119, 119);
+  text-align: left;
+  margin-bottom: 40px;
+  word-spacing: 0px;
+}
