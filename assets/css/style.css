@@ -871,5 +871,45 @@ link,
 }
 .box-xl:hover {
   filter: grayscale(100%);
-  z-index: -1;
+}
+
+.question {
+  background-color: #f4f5f8;
+  height: 516px;
+  width: 100%;
+}
+.question h4 {
+  font-family: workSansli;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  color: #4a4a4a;
+  line-height: 52px;
+  text-decoration: none solid rgb(74, 74, 74);
+  word-spacing: 0px;
+}
+.question h5 {
+  padding-left: 50px;
+  font-family: workSansbold;
+  font-size: 50px;
+  color: #4a4a4a;
+  letter-spacing: -1.5px;
+  line-height: 52px;
+  text-decoration: none solid rgb(74, 74, 74);
+  word-spacing: 0px;
+}
+.question p {
+  font-family: workSans;
+  padding-left: 50px;
+  font-size: 15px;
+  color: #4a4a4a;
+line-height: 22.5px;
+text-decoration: none solid rgb(74, 74, 74);
+word-spacing: 0px;
+}
+.box-no1 {
+  margin-top: 100px;
+  margin-left: 180px;
+  height: 316px;
+  width: 410px;
 }
