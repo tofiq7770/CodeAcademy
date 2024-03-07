@@ -37,3 +37,19 @@ document.addEventListener("touchend", function(event) {
 }, false);
 
 showSlide(slideIndex);
+
+
+// // let number = 0; 
+// // let number1 = document.getElementById("numberfirst");
+// // function increaseNumber() {
+// //     number++; 
+// //     while (number<=3000) {
+// //       number1.innerText = number; 
+// //     }
+// // }
+
+// // setInterval(increaseNumber, 100);
+
+
+
+
