@@ -557,11 +557,11 @@ a {
 .footer {
   background-color: #ffffff;
   width: 1425px;
-  margin: 150px 0 55px 0;
   padding: 0 50px 0 50px;
 }
 .lis {
-  margin-right: 400px;
+  margin-right: 300px;
+  height: 450px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -574,16 +574,17 @@ a {
 }
 .seccondli {
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .thirdli {
+  margin-bottom: 65px;
   margin-left: 100px;
 }
 .firstli li a {
   font-size: 13px;
   font-weight: 500;
   font-family: workSans;
-  line-height: 24px;
+  line-height: 34px;
   text-decoration: none solid rgb(143, 143, 143);
   text-align: left;
   word-spacing: 0px;
@@ -593,7 +594,7 @@ a {
   font-size: 13px;
   font-family: workSans;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 34px;
   text-decoration: none solid rgb(143, 143, 143);
   text-align: left;
   word-spacing: 0px;
@@ -874,6 +875,7 @@ link,
 }
 
 .question {
+  margin-top: 90px;
   background-color: #f4f5f8;
   height: 516px;
   width: 100%;
@@ -903,13 +905,128 @@ link,
   padding-left: 50px;
   font-size: 15px;
   color: #4a4a4a;
-line-height: 22.5px;
-text-decoration: none solid rgb(74, 74, 74);
-word-spacing: 0px;
+  line-height: 22.5px;
+  text-decoration: none solid rgb(74, 74, 74);
+  word-spacing: 0px;
 }
 .box-no1 {
   margin-top: 100px;
   margin-left: 180px;
   height: 316px;
   width: 410px;
+}
+.form {
+  height: 292px;
+  width: 415px;
+}
+#fname {
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-decoration: none solid rgb(55, 58, 60);
+  vertical-align: middle;
+  word-spacing: 0px;
+
+  height: 59px;
+  font-family: workSans;
+  width: 192.5px;
+  border: 0px solid #818a91;
+  padding: 7px 20px 7px 20px;
+  min-height: 59px;
+  max-width: 100%;
+  min-width: auto;
+}
+
+#sname {
+  font-family: workSans;
+  margin-right: auto;
+
+  height: 59px;
+  width: 192.5px;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-decoration: none solid rgb(55, 58, 60);
+  vertical-align: middle;
+  word-spacing: 0px;
+
+  border: 0px solid #818a91;
+  padding: 7px 20px 7px 20px;
+  min-height: 59px;
+  max-width: 100%;
+  min-width: auto;
+}
+#pnum {
+  font-family: workSans;
+
+  margin-right: auto;
+  height: 59px;
+  width: 88.75px;
+  border: 0px solid #818a91;
+  padding: 7px 20px 7px 20px;
+  min-height: 59px;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-decoration: none solid rgb(55, 58, 60);
+  vertical-align: middle;
+  word-spacing: 0px;
+
+  max-width: 100%;
+  min-width: auto;
+}
+
+#num {
+  font-family: workSansli;
+  font-size: large;
+  height: 59px;
+  width: 296.25px;
+  border: 0px solid #818a91;
+  padding: 7px 20px 7px 20px;
+  min-height: 59px;
+  margin-right: auto;
+  max-width: 100%;
+  min-width: auto;
+}
+#sd {
+  font-family: workSans;
+  color: #494b4d;
+  height: 59px;
+  width: 400px;
+  border: 0px solid #818a91;
+  padding: 7px 20px 7px 20px;
+  min-height: 59px;
+  max-width: 100%;
+  min-width: auto;
+}
+#sub {
+  font-family: workSansbold;
+
+  border: none;
+  color: floralwhite;
+  background-color: #fcba02;
+  height: 54px;
+  width: 400px;
+  padding: 0 24px 0 24px;
+  min-height: 40px;
+  min-width: auto;
+}
+
+.formstr {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input {
+  border: unset;
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
 }
