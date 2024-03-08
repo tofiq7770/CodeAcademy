@@ -840,6 +840,41 @@ link,
   word-spacing: 0px;
 }
 
+body {
+  position: relative;
+}
+.stick {
+  right: 0;
+  top: 42%;
+  position: fixed;
+  z-index: 200;
+  height: 109.555px;
+  width: 40px;
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+  padding: 12px 14px 12px 12px;
+  background-color: #d23201;
+}
+.feedback {
+  padding-top: 17px;
+
+  height: 57.5547px;
+  padding-right: 20px;
+  width: 16px;
+}
+.stick p {
+  transform: rotate(-90deg);
+  padding-top: 20px;
+  font-size: 13px;
+  text-decoration: none solid rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  word-spacing: 0px;
+}
+.stick i {
+  padding: 3px;
+}
 .parttt p {
   font-family: workSans;
   font-size: 15px;
@@ -869,9 +904,6 @@ link,
   background-size: cover;
   transition: filter 0.5s ease;
   display: flex;
-}
-.box-xl:hover {
-  filter: grayscale(100%);
 }
 
 .question {
@@ -1017,7 +1049,6 @@ link,
   align-items: center;
 }
 
-
 .input {
   border: unset;
   width: 100%;
@@ -1029,4 +1060,98 @@ link,
   background-repeat: no-repeat;
   background-position: right 0.7rem top 50%;
   background-size: 0.65rem auto;
+}
+
+.containeer {
+  position: relative;
+}
+
+.imagee {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.oveerlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fdbb2e;
+}
+
+.oveerlayg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #00b45acc;
+}
+
+.oveerlayb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #2382c8cc;
+}
+
+.oveerlayp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #872891cc;
+}
+
+.containeer:hover .oveerlay{
+  opacity: 0.9;
+}
+
+.containeer:hover .oveerlayb{
+  opacity: 1;
+}
+
+.containeer:hover .oveerlayg{
+  opacity: 1;
+}
+
+.containeer:hover .oveerlayp{
+  opacity: 1;
+}
+
+.teext {
+  font-family: workSansbold;
+  font-size: 21px;
+  line-height: 27.93px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
